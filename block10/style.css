@@ -1,0 +1,195 @@
+.container {
+  box-shadow: 0 0 12px -2px black;
+  padding: 0;
+  height: 900px;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: dimgray;
+}
+
+.p1 {
+  position: relative;
+  top: 220px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.info {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  top: 220px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.canvas {
+  display: grid;
+  position: absolute;
+  margin: 0 auto;
+  top: 10vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 600px;
+  height: 400px;
+  background-color: skyblue;
+}
+
+
+.div2 {
+  display: flex;
+  position: absolute;
+  top: 2%;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+}
+
+.div3 {
+  display: flex;
+  position: absolute;
+  top: 2%;
+  bottom: 0;
+  left: 40%;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  z-index: 3;
+}
+
+.sun {
+  display: flex;
+  height: 200px;
+  width: 153px;
+  position: absolute;
+  top: 2%;
+  bottom: 0;
+  left: 400px;
+}
+
+.grass {
+  display: flex;
+  position: absolute;
+  width: 601px;
+  height: 100px;
+  background-color: green;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.tree {
+  position: absolute;
+  display: flex;
+  height: 200px;
+  top: 200px;
+  bottom: 0px;
+  left: 425px;
+
+}
+
+.greentree {
+  display: flex;
+  position: absolute;
+  height: 200px;
+  top: 200px;
+  bottom: 0;
+  left: 390px;
+  z-index: 1;
+}
+
+.purpletree {
+  display: flex;
+  position: relative;
+  height: 200px;
+  top: 200px;
+  bottom: 0px;
+  left: 350px;
+}
+
+.tree2 {
+  position: absolute;
+  display: flex;
+  height: 200px;
+  top: 200px;
+  bottom: 0px;
+  left: 300px;
+  z-index: 2;
+}
+
+.greentree2 {
+  display: flex;
+  position: absolute;
+  height: 200px;
+  top: 200px;
+  bottom: 0;
+  left: 250px;
+}
+
+.purpletree2 {
+  display: flex;
+  position: relative;
+  height: 200px;
+  top: 0px;
+  bottom: 0px;
+  left: 200px;
+}
+
+.tree3 {
+  position: absolute;
+  display: flex;
+  height: 200px;
+  top: 200px;
+  bottom: 0px;
+  left: 150px;
+  z-index: 2;
+}
+
+.greentree3 {
+  display: flex;
+  position: absolute;
+  height: 200px;
+  top: 200px;
+  bottom: 0;
+  left: 100px;
+}
+
+.purpletree3 {
+  display: flex;
+  position: relative;
+  height: 200px;
+  top: -200px;
+  bottom: 0;
+  left: 50px;
+  z-index: 3;
+}
+
+.man {
+  display: flex;
+  position: absolute;
+  height: 100px;
+  top: 320px;
+  bottom: 0;
+  left: 50px;
+  z-index: 6;
+}
+
+.woman {
+  display: flex;
+  position: absolute;
+  height: 100px;
+  top: 320px;
+  bottom: 0;
+  left: 100px;
+  z-index: 7;
+}
+
